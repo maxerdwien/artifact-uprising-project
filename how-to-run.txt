@@ -2,6 +2,11 @@
 docker run -it --rm --name my-maven-project -v "[repo location]":/usr/src/mymaven -w /usr/src/mymaven/basic maven:3.3-jdk-8 mvn clean install
 (replace [repo location])
 
+this takes a long time for some reason. ~10 minutes for me.
+
+in artifact-uprising-project/basic/target, run react-and-spring-data-rest-basic-0.0.1-SNAPSHOT.jar
+note that I went ahead and included all artifacts in the repo, so you can just run it off the bat if the build doesn't work.
+
 go to http://localhost:8080/
 
 
