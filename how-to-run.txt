@@ -1,0 +1,10 @@
+
+docker run -it --rm --name my-maven-project -v "[repo location]":/usr/src/mymaven -w /usr/src/mymaven/basic maven:3.3-jdk-8 mvn clean install
+(replace [repo location])
+
+go to http://localhost:8080/
+
+
+
+note:
+I started with a template from https://spring.io/guides/tutorials/react-and-spring-data-rest/.
